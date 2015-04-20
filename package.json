@@ -1,19 +1,19 @@
 {
-  "name": "css-sprite-css",
+  "name": "sprity-css",
   "version": "1.0.0",
-  "description": "css style processor for css-sprite",
+  "description": "css style processor for sprity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aslansky/css-sprite-css.git"
+    "url": "https://github.com/sprity/sprity-css.git"
   },
-  "homepage": "https://github.com/aslansky/css-sprite-css",
+  "homepage": "https://github.com/sprity/sprity-css",
   "bugs": {
-    "url": "https://github.com/aslansky/css-sprite-css/issues"
+    "url": "https://github.com/sprity/sprity-css/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/aslansky/css-sprite-css/blob/master/LICENSE-MIT"
+      "url": "https://github.com/sprity/sprity-css/blob/master/LICENSE-MIT"
     }
   ],
   "author": {
@@ -34,7 +34,8 @@
     "sprites",
     "sprite",
     "css",
-    "css-sprite"
+    "css-sprite",
+    "sprity"
   ],
   "dependencies": {
     "bluebird": "^2.9.24",
