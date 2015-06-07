@@ -7,7 +7,7 @@
     .{{cssesc ../classname}} {
       background-image: url('{{escimage url}}');
       {{#if dpi}}
-      background-size: {{width}} {{height}};
+      background-size: {{baseWidth}}px {{baseHeight}}px;
       {{/if}}
     }
     {{#if dpi}}
@@ -17,9 +17,9 @@
 
   {{#each layout.items}}
   .{{../classname}}-{{meta.name}} {
-    background-position: -{{x}}px -{{y}}px;
-    width: {{width}}px;
-    height: {{height}}px;
+    background-position: -{{baseDim x}}px -{{baseDim y}}px;
+    width: {{baseDim width}}px;
+    height: {{baseDim height}}px;
   }
   {{/each}}
 {{/each}}
